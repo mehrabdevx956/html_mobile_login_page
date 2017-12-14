@@ -1,0 +1,59 @@
+/*
+<--------------------Custom CSS-------------->
+*/
+body {
+  font-family: sans-serif;
+}
+@media screen and (max-width: 600px) {
+header h2 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+header img {
+    display: block;
+    width: 100px;
+    padding: 10px;
+}
+  .parent-form {
+    border: 2px solid #ccc;
+    padding: 8px;
+  }
+  input[type=text], input[type=password] {
+    width: 80%;
+    border: 2px solid #ccc;
+    padding: 12px 20px;
+    transition: 0.5s;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    border: 3px solid #555;
+  }
+  
+  .parent-form form button {
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 16px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+.footer-parent {
+   background-color: #6A6970;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+.footer-heading{
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+}
+.footer-quote {
+  color: white;
+  text-align: center;
+}
+}
